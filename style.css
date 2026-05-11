@@ -1,0 +1,78 @@
+body {
+  font-family: Arial;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  background: blue;
+  color: white;
+  border: none;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#notesContainer {
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.note-card {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.note-card h3 {
+  margin: 0;
+}
+
+.note-card p {
+  margin: 5px 0 0;
+}
+
+.btn-edit {
+  background-color: rgb(255, 170, 0);
+  color: white;
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+}
+
+.btn-simpan {
+  background-color: green;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: rgb(255, 119, 0);
+}
+
+.btn-delete:hover {
+  background-color: darkred;
+}
+
+.btn-simpan:hover {
+  background-color: rgb(11, 185, 11);
+}
