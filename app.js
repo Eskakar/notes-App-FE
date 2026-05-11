@@ -1,5 +1,5 @@
 //const API_URL = "http://localhost:3000/api/v1";
-const API_URL = "https://be-if-a-nabil-991771824221.us-central1.run.app";
+const API_URL = "https://be-if-a-nabil-991771824221.us-central1.run.app/api/v1";
 
 let editingId = null;
 window.onload = () => {
