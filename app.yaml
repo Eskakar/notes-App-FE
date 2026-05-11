@@ -1,5 +1,5 @@
 runtime: nodejs20
-service: default
+service: notes-App-by-Nabil
 
 # Tambahkan ini supaya hemat (untuk testing)
 automatic_scaling:
